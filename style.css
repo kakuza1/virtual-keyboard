@@ -1,0 +1,91 @@
+.ki {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1019px;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.key {
+  min-width: 55px;
+  min-height: 55px;
+  font-size: 30px;
+  margin: 3px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #373f4d;
+  color: white;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+.Line {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.backspace,
+.tab,
+.del,
+.caps,
+.enter,
+.l-shift,
+.r-shift,
+.l-ctrl,
+.win,
+.alt,
+.space,
+.r-alt,
+.r-ctrl,
+.fn{
+  color: #818181;
+  background-color: #151c29;
+}
+
+.caps{
+  width: 150px;
+}
+
+.tab{
+  width: 65px;
+}
+
+.backspace{
+  width: 152px;
+}
+
+.del{
+  width: 65px;
+}
+
+.enter{
+  width: 134px;
+}
+
+.l-shift{
+  width: 150px;
+}
+
+.r-shift{
+  width: 134px;
+}
+
+.l-ctrl{
+  width: 85px;
+}
+
+.space{
+  width: 400px;
+}
+
+.r-ctrl{
+  width: 83px;
+}
+
+.fn{
+  width: 56px;
+}
