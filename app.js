@@ -69,9 +69,17 @@ for (let i = 0; i < enKeyBoard.length; i += 1) {
   const keyElement = document.querySelectorAll('.key')[i];
   keyElement.setAttribute('data-key', enKeyBoard[i]);
 }
-
+const textArea = document.querySelector('.text');
 const keys = document.querySelectorAll('.key');
 // add mouse click on key
+
+keys.forEach((key) => {
+  key.addEventListener('click', () => {
+    const symbol = String.fromCharCode(key.dataset.key);
+    textArea.value += symbol;
+  });
+});
+
 keys.forEach((key) => {
   function onMouseDown() {
     this.classList.add('active');
